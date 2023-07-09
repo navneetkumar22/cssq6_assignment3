@@ -110,6 +110,26 @@ nav {
     width: 45vw;
 }
 
+/* information section */
+
+.info {
+    background-color: #1a1a1a;
+    text-align: center;
+    padding: 12vh 0;
+}
+
+.info h2 {
+    color: #1893f7;
+    font-size: 2.2rem;
+    margin: 20px 0px;
+    letter-spacing: 1.5px;
+}
+
+.info h4 {
+    color: whitesmoke;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
 
 /* media queries for smaller screen  */
 @media screen and (max-width:600px) {
@@ -164,4 +184,17 @@ nav {
     .hero-video video {
         width: 90%;
     }
+
+    /* information section - Question 7 */
+
+    .info {
+        background-color: white;
+        padding: 20vh 0;
+    }
+
+    .info h4 {
+        color: black;
+        margin-bottom: 10px;
+        font-size: 1.1rem;
+    } 
 }
